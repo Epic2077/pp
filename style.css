@@ -1,0 +1,62 @@
+.content {
+  width: 80%;
+  height: 80vh;
+  border: black solid 3px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.credit {
+  margin: 10px;
+}
+.c-title {
+  text-align: center;
+  margin-top: 4rem;
+}
+.c-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 14rem;
+}
+
+.content__button {
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  z-index: 10;
+}
+@media screen and (max-width: 575.98px) {
+  .content__button {
+    padding: 1rem 2.5rem;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .content {
+    width: 100%;
+  }
+}
